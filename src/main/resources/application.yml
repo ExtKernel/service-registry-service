@@ -14,3 +14,7 @@ spring:
         name: service-registry-service
     main:
         banner-mode: 'off'
+    devtools:
+        livereload:
+            port: ${LIVERELOAD_PORT:35730}
+            enabled: true
